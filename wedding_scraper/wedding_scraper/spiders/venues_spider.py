@@ -1,7 +1,7 @@
 import scrapy
 import re
 
-
+#venue extraction class 
 class VenuesSpider(scrapy.Spider):
     name = "wedding_venues"
     allowed_domains = ["wedding-spot.com"]
